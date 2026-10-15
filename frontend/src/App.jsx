@@ -42,7 +42,7 @@ function App() {
         setUsername(response.data.username);
         setPassword("");
         setMessage("Login successful!");
-        await getProtectedData(response.data.token);
+       
       }
     } catch (err) {
       setError(
